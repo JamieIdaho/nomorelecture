@@ -4,7 +4,7 @@
 foreach($_POST as $key => $value) {
 	if(ini_get('magic_quotes_gpc'))
 		$_POST[$key] = stripslashes($_POST[$key]);
-	
+
 	$_POST[$key] = htmlspecialchars(strip_tags($_POST[$key]));
 }
 
@@ -47,7 +47,7 @@ if($errors) {
 
 // --------------------------------------//
 // Send the email // INSERT YOUR EMAIL HERE
-$to = "youremail@address.com";
+$to = "mike@mikegamblin.com";
 // --------------------------------------//
 
 
@@ -109,7 +109,7 @@ function validEmail($email)
       else if(!preg_match('/^(\\\\.|[A-Za-z0-9!#%&`_=\\/$\'*+?^{}|~.-])+$/',
                  str_replace("\\\\","",$local)))
       {
-         // character not valid in local part unless 
+         // character not valid in local part unless
          // local part is quoted
          if (!preg_match('/^"(\\\\"|[^"])+"$/',
              str_replace("\\\\","",$local)))
