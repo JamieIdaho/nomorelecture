@@ -57,10 +57,10 @@ strong, b, .lead, .main table th, blockquote, .more, .cta a{
    Logos
    ========================================================================== */
 .logo{
-	max-width: 131px; /* Update width to suite your own logo size */
+	max-width: 300px; /* Update width to suite your own logo size */
 }
 .logo-foot{
-	max-width: 45px; /* Update width to suite your own logo size */
+	max-width: 130px; /* Update width to suite your own logo size */
 }
 
 
@@ -118,7 +118,7 @@ strong, b, .lead, .main table th, blockquote, .more, .cta a{
 }
 .header-container nav{
 	float: right;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 .header-container .nav li{
 	float: left;
