@@ -20,13 +20,13 @@ body {-webkit-font-smoothing: antialiased; font-smooth: always; text-shadow: 1px
 body{
    	background: #f3f4f5;  /* Background for Site */
 }
-html, button, input, select, textarea, a { 
+html, button, input, select, textarea, a {
 	color: #656a6f; /* General Body Text Color*/
 }
-.main ul li:before, h1 span, h2 span, h3 span, h4 span, .highlight, h5, h6, h1:after, h2:after, h3:after, .main-container a:hover, 
+.main ul li:before, h1 span, h2 span, h3 span, h4 span, .highlight, h5, h6, h1:after, h2:after, h3:after, .main-container a:hover,
 .more:before, ol > li:before, .cta a:hover, .error[generated=true], .footable.breakpoint > tbody > tr > td.expand:before{
 	color: #ffc000; /* Feature Color*/
-}   
+}
 a.btn, input[type=button], nav a.active, input[type=submit]{
 	background-color: #ffc000; /* Button Back Ground Color*/
 	color: #fff; /* Button Text Color*/
@@ -37,7 +37,7 @@ a.btn:hover, input[type=button]:hover, nav a:hover, input[type=submit]:hover{
 }
 h1, h2, h3, h4, .nav a, h1 a, h2 a, h3 a, h4 a, #response .success, .success:before, #response .failure{
 	color: #2d3438; /* Headings Color*/
-} 
+}
 strong, b, .lead, .main table th, blockquote, .more, .cta a{
 	color: #3c4a52; /* Headings Color*/
 }
@@ -55,7 +55,7 @@ strong, b, .lead, .main table th, blockquote, .more, .cta a{
 
 /* ==========================================================================
    Logos
-   ========================================================================== */  
+   ========================================================================== */
 .logo{
 	max-width: 131px; /* Update width to suite your own logo size */
 }
@@ -66,7 +66,7 @@ strong, b, .lead, .main table th, blockquote, .more, .cta a{
 
 
 
-	
+
 
 /* ==========================================================================
    Masthead Styles
@@ -112,10 +112,10 @@ strong, b, .lead, .main table th, blockquote, .more, .cta a{
 .logo{
 	display: inline-block;
 	float: left;
-}   
+}
 .logo img, .logo-foot img{
 	width: 100%;
-}   
+}
 .header-container nav{
 	float: right;
 	margin-top: 10px;
@@ -139,8 +139,8 @@ strong, b, .lead, .main table th, blockquote, .more, .cta a{
 	-o-transition: all 250ms ease-in-out;
 	transition: all 250ms ease-in-out;
 }
-.tinynav { 
-	display: none; 
+.tinynav {
+	display: none;
 	width: 100%;
 	margin-top: .5em;
 	margin-bottom: .6em;
@@ -155,7 +155,7 @@ strong, b, .lead, .main table th, blockquote, .more, .cta a{
 	padding-top: 60px;
 	border-bottom: 1px solid #cad2d7;
 	padding-bottom: 45px;
-}   
+}
 .main-container{
 	padding: 50px 0;
 }
@@ -200,7 +200,7 @@ a img:hover{
 
 
 
-/* ============= Columns ===============*/ 
+/* ============= Columns ===============*/
 .half{
 	width: 47%;
 	margin-right: 6%;
@@ -241,8 +241,8 @@ a img:hover{
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, p{
 	word-wrap: break-word;
-}   
-h1, h2, h3, h4, h5, h6{ 
+}
+h1, h2, h3, h4, h5, h6{
 	font-weight: normal;
 	line-height: 100%;
 	letter-spacing: -1px;
@@ -279,9 +279,9 @@ h1:after, h2:after, h3:after{
 	position: relative;
 	padding-left: 3px;
 }
-em{ 
+em{
 	font-style: normal;
-	font-family: 'robotoitalic'; 
+	font-family: 'robotoitalic';
 }
 .lead, blockquote{
 	font-size: 24px;
@@ -334,10 +334,10 @@ blockquote, blockquote.right, blockquote.left{
 
 
 
-/* ============= Lists ===============*/   
+/* ============= Lists ===============*/
 .main ul, .main ol{
 	margin-bottom: 12px;
-}   
+}
 .main ul li, .more{
 	list-style-type: none;
 	line-height: 20px;
@@ -428,7 +428,7 @@ a.xsmall-btn{
 
 /* ============= Tables ===============*/
 .main table{
-	border: 1px solid #dde1e5;	
+	border: 1px solid #dde1e5;
 	text-align: left;
 	width: 100%;
 	background: #ffffff;
@@ -437,12 +437,12 @@ a.xsmall-btn{
 	padding: .5em;
 	border: 1px solid #dde1e5;
 	background-color: #ebedef;
-	vertical-align: top;	
+	vertical-align: top;
 }
 .main table td{
 	padding: .5em;
 	border: 1px solid #dde1e5;
-	vertical-align: top;	
+	vertical-align: top;
 }
 .main table tr:nth-child(2n+1){
 	background-color: #f8f8f8;
@@ -514,7 +514,7 @@ select, input[type=radio], input[type=checkbox] {
 /* ==========================================================================
    Footer Styles
    ========================================================================== */
-				
+
 footer .wrapper{
 	font-size: 14px;
 	color: #9fa6aa;
@@ -535,7 +535,7 @@ footer .wrapper{
 	-ms-transition: all 250ms ease-in-out;
 	-o-transition: all 250ms ease-in-out;
 	transition: all 250ms ease-in-out;
-}					
+}
 .social-link img{
 	width: 100%;
 }
@@ -562,7 +562,7 @@ footer .wrapper{
 /* ==========================================================================
    Media Queries 480
    ========================================================================== */
-@media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 480px) {
 	 input[type=text],  input[type=email], input[type=password], textarea, a.btn, input[type=button], input[type=submit]{
 		padding: 10px 2%;
 		width: 96%;
@@ -581,7 +581,7 @@ footer .wrapper{
 	iframe{
 		max-height: 320px;
 	}
-	
+
 }
 
 
@@ -589,7 +589,7 @@ footer .wrapper{
 /* ==========================================================================
    Media Queries 600
    ========================================================================== */
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
 
 	.logo{
 		float: none;
@@ -613,14 +613,14 @@ footer .wrapper{
 		float: none;
 	}
 
-	
+
 	/* ============= Tables ===============*/
-		.main table{ 
+		.main table{
 			border-left: 1px solid #cad2d7;
 			border-right: 1px solid #cad2d7;
 			border-top: none;
 			border-bottom: none;
-		}	
+		}
 }
 
 
@@ -628,12 +628,12 @@ footer .wrapper{
    Media Queries 768
    ========================================================================== */
 @media only screen and (max-width: 768px) {
-	.tinynav { 
-		display: block; 
+	.tinynav {
+		display: block;
 	}
-	#nav{ 
-		display: none; 
-	}	
+	#nav{
+		display: none;
+	}
 	#masthead{
 		display: block;
 		height: 100%;
@@ -641,12 +641,12 @@ footer .wrapper{
 	.cta h1{
 		font-size: 72px;
 	}
-	
+
 	/* ============= Main Container General Layout Styles===============*/
 	.header-container header{
 		padding: 30px 0 25px;
 		text-align: center;
-	} 
+	}
 	.main-content, .right-aside{
 		width: 100%;
 		float: none;
@@ -659,9 +659,9 @@ footer .wrapper{
 	}
 	.right-aside{
 		border-top: 1px solid #cad2d7;
-		margin-top: 25px; 
+		margin-top: 25px;
 	}
-	/* ============= Columns ===============*/ 
+	/* ============= Columns ===============*/
 	.third, .half, .fourths, .two-third, ol.icon-lists li, ul.flag-lists li, .three-fourths, .foot.left, .foot.right{
 		width: 100%;
 		margin-right: 0%;
@@ -681,15 +681,15 @@ footer .wrapper{
 		text-align: center;
 		margin-bottom: 50px;
 	}
-	
- }
- 
 
- 
+ }
+
+
+
 /* ==========================================================================
    Media Queries 1140
-   ========================================================================== */  
-@media only screen and (max-width: 1140px) { 
+   ========================================================================== */
+@media only screen and (max-width: 1140px) {
 	.wrapper { width: 92%; margin: 0 4%; }
 }
 
@@ -706,7 +706,7 @@ footer .wrapper{
 /* ==========================================================================
    FONTS
    ========================================================================== */
-   
+
 @font-face {
     font-family: 'aleoitalic';
     src: url('../font/aleo-italic-webfont.eot');
